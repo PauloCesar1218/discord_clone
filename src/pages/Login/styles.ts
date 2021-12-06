@@ -77,6 +77,7 @@ export const Button = styled.button`
   height: 50px;
   font-size: 16px;
   margin-top: 20px;
+  cursor: pointer;
 
   :focus {
     outline: none;

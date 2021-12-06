@@ -47,6 +47,7 @@ export const InputArea = styled.form`
   height: 82px;
   padding: 0 16px;
   position: relative;
+  display: flex;
 `;
 
 export const Input = styled.input`
@@ -54,7 +55,7 @@ export const Input = styled.input`
   background-color: var(--chat-input);
   color: var(--white);
   position: relative;
-  height: 48px;
+  height: 44px;
   width: 100%;
   border-radius: 6px;
   font-size: 16px;
@@ -135,10 +136,12 @@ export const AddCircleIcon = styled(AddCircle)`
   height: 25px;
   color: var(--white);
   opacity: 0.7;
+  position: absolute;
+  margin: 10px 16px;
 `; 
 
 export const EmojiContainer = styled.div`
-  font-size: 25px;
+  font-size: 22px;
   position: absolute;
   top: 6px;
   right: 25px;
@@ -150,4 +153,10 @@ export const EmojiContainer = styled.div`
     transform: scale(1.2);
     filter: grayscale(0%);
   }
+`;
+
+export const EmojiPickerContainer = styled.div`
+  position: absolute;
+  right: 0;
+  bottom: 100px;
 `;
