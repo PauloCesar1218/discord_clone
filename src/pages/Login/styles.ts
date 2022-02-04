@@ -18,6 +18,10 @@ export const Container = styled.div`
   flex-direction: column;
   padding: 32px;
   box-shadow: 0 2px 10px 0 rgba(0,0,0,.2);
+
+  img {
+    width: 50px;
+  }
 `;
 
 export const Title = styled.div`
@@ -46,6 +50,16 @@ export const InputLabel = styled.label`
   margin-bottom: 8px;
   margin-top: 20px;
   text-transform: uppercase;
+
+  &.labelError {
+    color: var(--text-danger);
+
+    span {
+      font-weight: normal;
+      font-style: italic;
+      text-transform: none;
+    }
+  }
 `;
 
 export const LoginInput = styled.input`
@@ -58,6 +72,10 @@ export const LoginInput = styled.input`
   font-size: 16px;
   border-radius: 3px;
   transition: border-color .3s;
+  
+  &.inputError {
+    border: 1px solid var(--text-danger);
+  }
 
   :focus {
     border-color: var(--discord-blue);
@@ -101,4 +119,3 @@ export const MutedSpan = styled.span`
   font-size: 14px;
   margin-right: 4px;
 `;
-

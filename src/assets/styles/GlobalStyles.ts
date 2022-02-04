@@ -38,11 +38,13 @@ export default createGlobalStyle`
     --rocketseat: #6633cc;
     --message-content: #dcddde;
     --text-muted: #72767d;
+    --text-danger: #ED4245;
 
     --online: #00FF00;
     --do-not-disturb: #F04747;
 
     --discord-blue: #7289da;
+    --discord-experiment: #5865F2;
     --discord-login-bg: #36393f;
     --discord-login-muted-text: #8e9297;
     --discord-header-secondary: #B9BBBE;

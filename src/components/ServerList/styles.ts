@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Add} from '@styled-icons/fluentui-system-filled/Add'
 
 export const Container = styled.div`
   grid-area: SL;
@@ -21,3 +22,9 @@ export const Separator = styled.div`
   border-bottom: 2px solid var(--quaternary);
   margin-bottom: 8px;
 `;
+
+export const AddIcon = styled(Add)`
+  color: #57F287;
+  height: 20px;
+  width: 20px;
+`
